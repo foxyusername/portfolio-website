@@ -1,0 +1,41 @@
+.headerMainDiv{
+    width: 100%;
+    height: 60px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.headerMainDiv img{
+    display: none;
+}
+
+.headerMainDiv section{
+  display: flex;
+  gap: 30px;
+}
+
+.headerMainDiv section p{
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.headerMainDiv section p::before{
+ content: '';
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 0;
+ border-bottom: 1px solid white;
+ transition: all 0.2s ease;
+}
+
+.headerMainDiv section p:hover::before{
+  width: 100%;
+}

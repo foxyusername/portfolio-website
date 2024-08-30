@@ -1,0 +1,53 @@
+.experienceDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.experienceDiv h1{
+    background: linear-gradient(#5BADFF,#1373D1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.experienceDiv section{
+ display: flex;
+ flex-direction: column;
+ padding-left: 5px;
+ gap: 10px;
+}
+
+#experienceWrapper{
+    gap: 30px;
+}
+
+.experienceDiv section div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.experienceDiv section div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.experienceDiv section div h3{
+    font-family: 'poppins',sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 1.1rem
+}
+
+.experienceDiv section p{
+    color: #8491A0;
+    width: 95%;
+    font-family: 'poppins',sans-serif;
+}

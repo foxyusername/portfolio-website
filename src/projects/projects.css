@@ -1,0 +1,78 @@
+.projectsMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectsMainDiv h1{
+    background: linear-gradient(#FF8660,#D5491D);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.projectsMainDiv section{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+}
+
+.projectsMainDiv section div{
+    background-color: #2A2A2A;
+    border-radius: 18px;
+    overflow: hidden;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.projectsMainDiv section div img{
+  width:100%;
+  height: 150px;
+}
+
+.projectDiv:hover{
+    transform: scale(1.05);
+    transition: all 0.1s ease-in-out;
+}
+
+.projectsMainDiv section div p{
+    font-size: 0.6rem;
+    color: #C5C5C5;
+    padding-left: 10px;
+}
+
+.projectsMainDiv section div h2{
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.projectsMainDiv section div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.projectsMainDiv section div div h3{
+    display: inline-block;
+    transform: rotate(-45deg);
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+@media (min-width:1000px){
+  .projectsMainDiv section{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
