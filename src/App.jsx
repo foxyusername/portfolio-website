@@ -5,7 +5,7 @@ import Header from "./header/header.jsx";
 import Profile from "./profile/Profile.jsx";
 import Projects from "./projects/Projects.jsx";
 import Experience from "./experience/Experience.jsx";
-import Contact from "./contact/contact.jsx";
+import Contact from "./contact/Contact.jsx";
 
 
 function App(){

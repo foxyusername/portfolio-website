@@ -30,6 +30,7 @@
     font-weight: 800;
     padding-bottom: 10px;
     cursor: pointer;
+    max-width: 270px;
 }
 
 .projectsMainDiv section div img{
