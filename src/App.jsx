@@ -1,11 +1,11 @@
 import "./App.css";
 import { useRef } from "react";
 
-import Header from "./header/header";
-import Profile from "./profile/Profile";
-import Projects from "./projects/Projects";
-import Experience from "./experience/Experience";
-import Contact from "./contact/contact";
+import Header from "./header/header.jsx";
+import Profile from "./profile/Profile.jsx";
+import Projects from "./projects/Projects.jsx";
+import Experience from "./experience/Experience.jsx";
+import Contact from "./contact/contact.jsx";
 
 
 function App(){
