@@ -3,7 +3,7 @@ import React from "react";
 
 const Profile = React.forwardRef((props,ref) => {
 return <div className="profileMainDiv" ref={ref}>
-  <img src="https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/456557319_1983041078820065_7542496239843671656_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ANx4cyBORUYQ7kNvgG8T3sn&_nc_ht=scontent.ftbs5-3.fna&_nc_gid=Aqme2xMEvqHfEYum3aVyw4M&oh=00_AYBk3RhoJzry0aM4vDFFKZV5XVZrEWIuW8yJSd_lb00IqA&oe=66D7CC7A" alt="my image" />
+  <img src="https://scontent.ftbs3-2.fna.fbcdn.net/v/t39.30808-6/456557319_1983041078820065_7542496239843671656_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=rPDc6JVwjxUQ7kNvgEBfROf&_nc_ht=scontent.ftbs3-2.fna&_nc_gid=Axy1ZKfDIaTx1jR5TEyy8B_&oh=00_AYDvv7IokYiOWaobU5nvrqSl6IzPBqBdWvlTJ1ZXtQRGVA&oe=66ECAC3A" alt="my image" />
 
   <section>
     <h1>Web developer focused on improving my work daily</h1>
